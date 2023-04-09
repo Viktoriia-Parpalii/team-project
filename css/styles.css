@@ -1,0 +1,47 @@
+:root {
+	--color-main-red: #ff3839;
+	--color-black-202020: #202020;
+	--color-gray-background: #f8f8f8;
+	--color-light-red: #333335;
+	--color-light-black: #696969;
+    --body-color: #fff;
+}
+
+body{
+ font-family: 'Poppins', sans-serif;
+ color: var(--color-light-black);
+ background-color: var(--body-color);
+}
+
+h1,h2,h3,h4,h5,h6,p{
+ margin: 0;
+}
+
+.list{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.link{
+    text-decoration: none;
+}
+
+button{
+    font-family: inherit;
+    cursor: pointer;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
