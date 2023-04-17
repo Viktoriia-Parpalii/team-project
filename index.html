@@ -5,37 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Canvas Lancer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">    
-<link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
-      <!-- Logo -->
-      <a class="header-logo link" href=""
-        ><img src="./img/logo.svg" alt="Logo" width="50" height="53" />Canvas
-        Lancer</a
-      >
-      <nav class="nav">
-        <ul class="nav-list list">
-          <li class="nav-items"><a class="nav-link link" href="./index.html">Home</a></li>
-          <li class="nav-items"><a class="nav-link link" href="#about">About Us</a></li>
-          <li class="nav-items"><a class="nav-link link" href="#services">Services</a></li>
-          <li class="nav-items"><a class="nav-link link" href="#portfolio">Portfolio</a></li>
-          <li class="nav-items"><a class="nav-link link" href="#customers">Testimonials</a></li>
-          <li class="nav-items"><a class="nav-link link" href="">Faqs</a></li>
-        </ul>
-      </nav>
-      <button class="header-button" type="button">Contact Us</button>
-    </div>
+        <!-- Logo -->
+        <a class="header-logo link" href=""
+          ><img src="./img/logo.svg" alt="Logo" width="50" height="53" />Canvas
+          Lancer</a
+        >
+        <nav class="nav">
+          <ul class="nav-list list">
+            <li class="nav-items">
+              <a class="nav-link link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link link" href="#about">About Us</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link link" href="#services">Services</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link link" href="#customers">Testimonials</a>
+            </li>
+            <li class="nav-items"><a class="nav-link link" href="">Faqs</a></li>
+          </ul>
+        </nav>
+        <button class="header-button" type="button">Contact Us</button>
+      </div>
     </header>
     <main>
       <section class="hero">
         <div class="container">
-          <p class="hero-subtitle">Welcome To <span class="subtitle-span" >Canavas Lancer</span></p>
+          <p class="hero-subtitle">
+            Welcome To <span class="subtitle-span">Canavas Lancer</span>
+          </p>
           <h1 class="hero-title">Designing the Future with Canvas Lancer</h1>
           <p class="hero-descr">
             Lorem ipsum dolor sit amet consectetur. Aliquam quisque cursus proin
@@ -47,45 +65,58 @@
               <button class="hero-btn" type="button">Hire Us</button>
             </li>
             <li>
-              <button class="hero-btn secondary-btn" type="button">View Portfolio</button>
+              <button class="hero-btn secondary-btn" type="button">
+                View Portfolio
+              </button>
             </li>
           </ul>
         </div>
-       
       </section>
 
       <!-- About us -->
-      <section id="about">
-        <ul>
-          <li>
-            <img
-              width="398"
-              height="422"
-              src="./img/about-us/img-1.jpg"
-              alt="people"
-            />
-          </li>
-          <li>
-            <img
-              width="301"
-              height="319"
-              src="./img/about-us/img-2.jpg"
-              alt="people2"
-            />
-          </li>
-        </ul>
-        <p>About CanvasLancer</p>
-        <h2>Introduction To Best Digital Agency</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at arcu
-          enim id gravida pulvinar. Tristique consectetur mi curabitur congue
-          enim dignissim amet justo. Porta morbi nulla aliquet adipiscing. Sed
-          diam mauris erat faucibus eu posuere ultricies quisque amet. Quam
-          pellentesque in tristique sed neque scelerisque quam pulvinar. Risus
-          dictum elementum lacus urna. Neque eget sagittis vulputate nam id
-          morbi id. Aliquam molestie posuere pulvinar arcu
-        </p>
-        <button type="button">Hire Us</button>
+      <section class="about-us" id="about">
+        <div class="container about-container">
+          <ul class="about-list list">
+            <li class="about-item">
+              <img
+                class="about-img"
+                width="398"
+                height="422"
+                src="./img/about-us/img-1.jpg"
+                alt="people"
+              />
+            </li>
+            <li class="about-item">
+              <img
+                class="about-img position-img"
+                width="301"
+                height="319"
+                src="./img/about-us/img-2.jpg"
+                alt="people2"
+              />
+            </li>
+          </ul>
+          <div class="about-introduction">
+            <p class="about-subtitle">
+              <span class="subtitle-span">About</span> CanvasLancer
+            </p>
+            <h2 class="about-title">
+              Introduction To Best
+              <span class="subtitle-span">Digital Agency </span>
+            </h2>
+            <p class="about-text">
+              Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at arcu
+              enim id gravida pulvinar. Tristique consectetur mi curabitur
+              congue enim dignissim amet justo. Porta morbi nulla aliquet
+              adipiscing. Sed diam mauris erat faucibus eu posuere ultricies
+              quisque amet. Quam pellentesque in tristique sed neque scelerisque
+              quam pulvinar. Risus dictum elementum lacus urna. Neque eget
+              sagittis vulputate nam id morbi id. Aliquam molestie posuere
+              pulvinar arcu
+            </p>
+            <button class="about-btn" type="button">Hire Us</button>
+          </div>
+        </div>
       </section>
       <!-- Services -->
       <section id="services">
@@ -175,15 +206,24 @@
         <ul>
           <li>
             <h2>Name Here</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt odio arcu id praesent vitae. Facilisis vitae fringilla donec</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt
+              odio arcu id praesent vitae. Facilisis vitae fringilla donec
+            </p>
           </li>
           <li>
             <h2>Name Here</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt odio arcu id praesent vitae. Facilisis vitae fringilla donec</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt
+              odio arcu id praesent vitae. Facilisis vitae fringilla donec
+            </p>
           </li>
           <li>
             <h2>Name Here</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt odio arcu id praesent vitae. Facilisis vitae fringilla donec</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt
+              odio arcu id praesent vitae. Facilisis vitae fringilla donec
+            </p>
           </li>
         </ul>
       </section>
