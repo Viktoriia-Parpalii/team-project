@@ -233,3 +233,69 @@ img {
 }
 
 /* ====================  /About us  ====================== */
+
+/* ====================  /Portfolio  ====================== */
+.portfolio {
+  margin-top: 112px;
+  margin-bottom: 110px;
+}
+.portfolio-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+}
+.portfolio-subtitle::before,
+.portfolio-subtitle::after {
+  content: "";
+  display: flex;
+  width: 143px;
+  height: 1px;
+  border-radius: 4px;
+  border: 2px solid var(--line-color);
+}
+.portfolio-title {
+  margin: 0 auto 47px;
+  width: 457px;
+  font-size: 48px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.portfolio-filter {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.portfolio-btn {
+  padding: 10px 25px;
+  margin-bottom: 50px;
+  min-width: 73px;
+  height: 44px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  border-radius: 5px;
+  border: none;
+}
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  background-color: var(--color-main-red);
+  color: var(--body-color);
+}
+.portfolio-list {
+  display: flex;
+  gap: 24px;
+}
+.portfolio-icon {
+  width: calc((100%-48px) / 3);
+}
+.portfolio-icon img {
+  border-radius: 5px;
+}
+/* ====================  /Portfolio  ====================== */
