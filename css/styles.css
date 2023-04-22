@@ -234,6 +234,116 @@ img {
 
 /* ====================  /About us  ====================== */
 
+/* ==================== /Services  ====================== */
+.services {
+  background: var(--color-black-202020);
+}
+.services-cont {
+  display: flex;
+  padding-top: 120px;
+  align-items: center;
+}
+.services-subtitle {
+  margin-bottom: 19px;
+  display: flex;
+  gap: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 155%;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: var(--color-gray-background);
+}
+.services-subtitle::before {
+  content: "";
+  width: 143px;
+  height: 0px;
+  border-radius: 4px;
+  border: 2px solid var(--line-color);
+}
+.services-title {
+  width: 443px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125.5%;
+  letter-spacing: 0.03em;
+  color: var(--color-gray-background);
+  margin-bottom: 23px;
+}
+.services-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: var(--color-gray-background);
+  width: 534px;
+  margin-bottom: 40px;
+  margin-right: 89px;
+}
+.services-button {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--body-color);
+  background: var(--color-main-red);
+  padding: 12px 62px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 120px;
+}
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 61px;
+  margin-bottom: 102px;
+}
+.services-items {
+  position: relative;
+  background: var(--body-color);
+  border-radius: 5px;
+  width: 263px;
+}
+
+.icon {
+  position: absolute;
+  top: -41px;
+  left: 91px;
+  background-size: 82px;
+  background-color: var(--color-main-red);
+  border: 3px solid var(--body-color);
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  padding: 16px;
+}
+.services-titel-icons {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  text-align: center;
+  margin-top: 54px;
+}
+
+.services-text-icons {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-light-black);
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 22px;
+}
+
+/* ==================== /Services  end ====================== */
+
 /* ====================  /Portfolio  ====================== */
 .portfolio {
   margin-top: 112px;
