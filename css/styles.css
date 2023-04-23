@@ -237,10 +237,12 @@ img {
 /* ==================== /Services  ====================== */
 .services {
   background: var(--color-black-202020);
+  padding-top: 120px;
+  padding-bottom: 102px;
 }
 .services-cont {
   display: flex;
-  padding-top: 120px;
+
   align-items: center;
 }
 .services-subtitle {
@@ -292,14 +294,12 @@ img {
   padding: 12px 62px;
   border: none;
   border-radius: 5px;
-  margin-bottom: 120px;
 }
 .services-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 20px;
   row-gap: 61px;
-  margin-bottom: 102px;
 }
 .services-items {
   position: relative;
