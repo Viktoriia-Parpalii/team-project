@@ -236,8 +236,8 @@ img {
 
 /* ====================  /Portfolio  ====================== */
 .portfolio {
-  margin-top: 112px;
-  margin-bottom: 110px;
+  padding-top: 112px;
+  padding-bottom: 110px;
 }
 .portfolio-subtitle {
   display: flex;
